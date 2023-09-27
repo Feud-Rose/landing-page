@@ -1,0 +1,23 @@
+
+
+#headerimage {
+    width: 400px;
+    height: auto;
+}
+
+
+ul {
+    display: flex;
+
+}
+
+il {
+    display: flex;
+    flex-direction: column;
+}
+
+
+img {
+    width: 200px;
+    height: 200px;
+}
