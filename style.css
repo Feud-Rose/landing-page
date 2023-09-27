@@ -1,8 +1,5 @@
 * {
  font-family: Verdana, Geneva, Tahoma, sans-serif;
-
-
-
 }
 header{
     background-color: #FED9B7;
@@ -10,8 +7,8 @@ header{
 
 .topbar {
     display: flex;
-    padding: 0px 90px;
-    justify-content: flex-end;
+    padding: 0px 32px;
+    justify-content: center;
     background-color: #F07167;
     align-items: center;
     
@@ -40,6 +37,8 @@ header{
 .headerdiv {
     display: flex;
     padding: 50px;
+    justify-content: center;
+    align-items: center;
 }
 
 .headercontent {
@@ -83,7 +82,7 @@ header{
     background-color: #F07167;
     display: flex;
     justify-content: center;
-    padding: 72px;
+    padding: 40px;
     flex-direction: column;
 }
 
