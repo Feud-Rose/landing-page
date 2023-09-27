@@ -10,22 +10,31 @@ header{
 
 .topbar {
     display: flex;
-    padding: 8px 90px 8px;
+    padding: 0px 90px;
     justify-content: flex-end;
     background-color: #F07167;
+    align-items: center;
+    
+}
+
+.logotext{
+    margin-right: auto;
+    font-size: 24px;
     
 }
 
 .toplinks {
     display: flex;
     gap: 16px;
+    font-size: 18px;
+   
 }
 
 .logo {
     width: 40px;
     height: 40px;
-    margin-right: auto;
     border: 0;
+    
 }
 
 .headerdiv {
@@ -42,7 +51,7 @@ header{
 
 .headhead {
     font-size: 48px;
-    font-weight: 800;
+    font-weight: bolder
 }
 
 
@@ -74,6 +83,21 @@ header{
     background-color: #F07167;
     display: flex;
     justify-content: center;
+    padding: 72px;
+    flex-direction: column;
+}
+
+.quotebox {
+    font-size: 36px; 
+    font-weight: 100;
+    font-style: italic;
+    max-width: 600px;
+    align-self: center;
+}
+
+.p2 {
+    flex: 1 auto;
+    margin-left: 60%;
 }
 
 .top-button {
@@ -84,7 +108,9 @@ button {
     background-color: #0081A7;
     border: 2px, black;
     padding: 8px 28px;
-    border-radius: 25px;
+    border-radius: 15px;
+    font-weight: 700;
+    font-size: 18px;
 }
 
 footer {
@@ -92,7 +118,7 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center; 
-    padding: 32 px;
+    padding: 32px;
 }
 
 
@@ -109,9 +135,15 @@ footer {
     
 }
 
-.footer-text {
-
+.foothead {
+    font-size: 24px;
+    font-weight: 700;
 }
+
+.foottext {
+    font-size: 18px;
+}
+
 ul {
     display: flex;
     padding: 0px;
@@ -126,8 +158,13 @@ li {
     text-align: center;
     max-width: 200px;
     gap: 8px;
+    font-size: 18px;
     
-    
+}
+
+.b2 {
+    align-self: center;
+    padding-left: 1em;
 }
 
 a {
